@@ -2,6 +2,14 @@
 
 The text for each field in the developer dashboard. The name and summary come from `manifest.json`.
 
+## Submitting, step by step
+
+1. In the [developer dashboard](https://chrome.google.com/webstore/devconsole), click **New item** and upload `dist/crate-1.0.0.zip`. To rebuild it, run `zip -qr -X dist/crate-1.0.0.zip manifest.json icons src -x '*.DS_Store'` from the repo root.
+2. **Store listing** tab: paste the description, pick the category and language, and upload the graphics listed below.
+3. **Privacy** tab: paste the single purpose, the permission justifications and the privacy policy URL, answer remote code and data usage as below, and tick the three certifications.
+4. **Distribution** tab: Free, Public, all regions.
+5. Click **Submit for review**. The first review usually takes a few days.
+
 ## Store listing
 
 **Category:** Entertainment
