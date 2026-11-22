@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Crate</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header>
+      <img src="../icons/icon-48.png" alt="" width="24" height="24" />
+      <span>Crate</span>
+    </header>
+
+    <label class="row">
+      <span class="label">
+        <span class="name">Have / want on covers</span>
+        <span class="hint">Community counts on every release and master</span>
+      </span>
+      <input type="checkbox" id="showStats" role="switch" />
+    </label>
+
+    <div class="field">
+      <label for="token" class="name">Discogs token</label>
+      <input id="token" type="password" autocomplete="off" spellcheck="false" placeholder="Paste a personal access token" />
+      <p class="status" id="status" aria-live="polite"></p>
+      <p class="hint">
+        Needed for the wantlist heart. It also raises lookups from 25 to 60 a minute, so counts and plays load faster.
+        Generate one under <a href="https://www.discogs.com/settings/developers" target="_blank" rel="noopener">Settings → Developers</a>.
+      </p>
+    </div>
+
+    <p class="notice">
+      Crate uses Discogs’ API but is not affiliated with, sponsored or endorsed by Discogs. ‘Discogs’ is a trademark of Zink Media, LLC.
+    </p>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

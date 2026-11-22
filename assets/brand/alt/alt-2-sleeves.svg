@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" width="96" height="96" role="img" aria-label="Crate, alternative 2">
+  <!-- sleeves being flipped forward; the front one plays -->
+  <rect x="32" y="4" width="60" height="60" rx="7" fill="#d1492a"/>
+  <rect x="18" y="18" width="60" height="60" rx="7" fill="#ee7f33"/>
+  <rect x="4" y="32" width="60" height="60" rx="7" fill="#f2c35b"/>
+  <path d="M27 51v22l19-11z" fill="#161615" stroke="#161615" stroke-width="5" stroke-linejoin="round"/>
+</svg>

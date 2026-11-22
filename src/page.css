@@ -1,0 +1,4 @@
+/* Leave room so the floating player never covers the end of the page. */
+html.nd-has-bar body {
+  padding-bottom: 108px !important;
+}
